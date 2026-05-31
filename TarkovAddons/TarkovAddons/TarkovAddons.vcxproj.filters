@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dxhook\dxhook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\menu\menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_dx12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_stdlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="assets\asset_bundles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\ActionRowValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\CheckboxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\ColorpickerValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\ConfigValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\FloatSliderValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\IntSliderValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\IntTextboxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\SelectValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\TextboxValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\dxhook\dxhook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu\imgui_addons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\menu\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\exports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\Il2CppObjectInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\il2cpp_offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\il2utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-api-types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-blob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-class-internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-object-internals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\libil2cpp\il2cpp-runtime-metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="il2cpp\unity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\always_on.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\common_hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\eft_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\game_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\AimbotModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\ChamsModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\ConfigModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\EspModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\ItemModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\PlayerModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\QuestModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\WatermarkModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\WeaponModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\impl\WorldModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\ModuleCategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="module\ModuleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_dx12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\detours\detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="external\detours\detver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
